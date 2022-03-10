@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter the number between 1 t 5 :\n");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 1:printf("FOOD ITEM -PIZZA\n PRICE:Rs239");
+        break;
+        case 2:printf("FOOD ITEM -BURGER\n PRICE:Rs129");
+        break;
+        case 3:printf("FOOD ITEM -PASTA\n PRICE:Rs179");
+        break;
+       case 4: printf("FOOD ITEM -FRENCH FRIES \n PRICE:Rs99");
+        break;
+       case 5 : printf("FOOD ITEM -SANDWICH\n PRICE:Rs149");
+        break;
+        default : 
+        printf("invalid number");
+    }
+    return 0;
+}
